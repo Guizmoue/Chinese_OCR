@@ -1,5 +1,8 @@
-/data/
-corpus.ipynb
+/data/handwritten-chinese-character-hanzi-datasets/
+/data/test.csv
+/data/train.csv
+/data/train.tfrecord
+/data/test.tfrecord
 .DS_Store
 .vscode/
 .gitattributes
