@@ -4,8 +4,8 @@ Ce projet implémente une solution de reconnaissance optique de caractères (OCR
 
 ## Structure du Projet
 
-### 1. [Préparation du Corpus](pre_processing.ipynb & manuscrit.ipynb)
-Les notebooks `pre_processing.ipynb` et `manuscrit.ipynb` contiennent les étapes de génération et de prétraitement du corpus d'images pour l'OCR chinois.
+### 1. Préparation du Corpus
+Les notebooks [`pre_processing.ipynb`](pre_processing.ipynb) et [`manuscrit.ipynb`](manuscrit.ipynb) contiennent les étapes de génération et de prétraitement du corpus d'images pour l'OCR chinois.
 
 - **manuscrit.ipynb** : Ce notebook corrige l'inclinaison des images de texte manuscrit pour améliorer la précision de la reconnaissance. Il comprend les étapes suivantes :
   - **Chargement et affichage des images** : Utilisation de OpenCV et Matplotlib pour visualiser les images originales.
