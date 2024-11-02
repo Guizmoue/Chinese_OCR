@@ -43,12 +43,22 @@ Ce notebook compare deux outils d'OCR open-source, Tesseract et EasyOCR, en term
 *A COMPLETER*
 
 
-## Corpus
-(Faites une description statistique (distribution des classes, fréquence des mots, longueur moyenne des documents, etc.) et qualitative (exemples typiques, difficultés linguistiques, caractéristiques particulières) du corpus.)
-### Corpus d'origine
+## Corpus utilisé (NewData120)
 
+Le corpus **NewData120** est un sous-ensemble structuré des caractères chinois manuscrits, contenant 120 classes de caractères sélectionnés. Ce jeu de données est divisé en ensembles d'entraînement et de test.
 
-### Corpus utilisé (NewData120)
+### Description statistique
+
+- **Distribution des classes** : Le corpus comporte 120 classes de caractères, chacune représentant un caractère chinois spécifique. Les caractères sont également répartis entre les répertoires d'entraînement et de test pour assurer une bonne représentativité.
+- **Nombre total d'images** : Le corpus complet contient plusieurs milliers d'images de caractères chinois manuscrits.
+- **Longueur moyenne des documents** : Chaque image contient un seul caractère, simplifiant l’analyse séquentielle et la classification.
+- **Fréquence des caractères** : Les classes sont équilibrées avec une répartition similaire du nombre d'images par caractère dans chaque ensemble (entraînement et test). Une distribution des images pour chaque caractère est visualisée dans un histogramme, montrant la quantité de données disponible pour chaque classe.
+
+### Description qualitative
+
+- **Exemples typiques** : Chaque image contient un caractère chinois manuscrit, avec des variations dans l'épaisseur des traits, l'angle d'écriture et la clarté, reflétant les variations courantes de l'écriture humaine.
+- **Difficultés linguistiques** : Certains caractères chinois se ressemblent fortement et diffèrent uniquement par quelques traits ou légères modifications structurelles. Cela crée des défis pour la différenciation automatique.
+- **Caractéristiques particulières** : Le corpus inclut des images binarisées et redressées pour réduire l'impact des inclinaisons et du bruit visuel. La complexité des caractères chinois et leur structure dense exigent un modèle robuste pour distinguer efficacement les classes.
 
 
 ## Pourquoi ces outils et ces modèles ?
