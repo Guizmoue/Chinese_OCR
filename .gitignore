@@ -1,5 +1,13 @@
-/data/
-corpus.ipynb
+/data/handwritten-chinese-character-hanzi-datasets/
+# /data/NewData/
+/data/Test_HWDB/
+/data/test.csv
+/data/train.csv
+/data/train.tfrecord
+/data/test.tfrecord
 .DS_Store
 .vscode/
 .gitattributes
+/model/checkpoints/
+ocr_trained.ipynb
+ocr_training_evaluation.ipynb
