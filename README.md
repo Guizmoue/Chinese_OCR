@@ -53,8 +53,10 @@ Ce notebook compare deux outils d'OCR open-source, Tesseract et EasyOCR, en term
 ## Utilisation
 
 ### Génération et Prétraitement du Corpus
-1. Exécutez `manuscrit.ipynb` pour construire les jeux de données d'entraînement et de test sous forme de CSV.
-2. Exécutez `pre_processing.ipynb` pour nettoyer, redresser, et segmenter les images.
+
+1. Exécutez `manuscrit.ipynb` pour préparer et corriger les images du corpus manuscrit.
+
+2. Exécutez `pre_processing.ipynb` pour affiner le corpus d'images.
 
 ### Entraînement du modèle CRNN
 Lancez le notebook `CRNN_OCR_Chinese.ipynb` pour entraîner le modèle CRNN sur le jeu de données des caractères manuscrits chinois.
