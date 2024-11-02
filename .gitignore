@@ -9,3 +9,5 @@
 .vscode/
 .gitattributes
 /model/checkpoints/
+ocr_trained.ipynb
+ocr_training_evaluation.ipynb
