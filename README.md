@@ -70,6 +70,3 @@ Lancez le notebook `tesseract_vs_easyocr.ipynb` pour évaluer et comparer les pe
 
 ## Résultats
 Les résultats de chaque modèle sont sauvegardés sous forme de rapports texte et d'images, incluant les métriques de classification et la matrice de confusion des prédictions.
-
-## Licence
-Ce projet est sous licence MIT.
