@@ -1,0 +1,730 @@
+Summary Evaluation Metrics for the Best Model:
+accuracy: 0.8569
+precision_macro: 0.8618
+recall_macro: 0.8569
+f1_macro: 0.8572
+precision_weighted: 0.8619
+recall_weighted: 0.8569
+f1_weighted: 0.8572
+
+Detailed Classification Report for Each Label:
+Label '一' (Class 0):
+  Precision: 0.9728
+  Recall:    0.9931
+  F1 Score:  0.9828
+  Support:   144.0
+
+Label '上' (Class 1):
+  Precision: 0.8438
+  Recall:    0.9375
+  F1 Score:  0.8882
+  Support:   144.0
+
+Label '下' (Class 2):
+  Precision: 0.8944
+  Recall:    0.8819
+  F1 Score:  0.8881
+  Support:   144.0
+
+Label '不' (Class 3):
+  Precision: 0.7778
+  Recall:    0.8873
+  F1 Score:  0.8289
+  Support:   142.0
+
+Label '与' (Class 4):
+  Precision: 0.9203
+  Recall:    0.8819
+  F1 Score:  0.9007
+  Support:   144.0
+
+Label '个' (Class 5):
+  Precision: 0.9615
+  Recall:    0.8803
+  F1 Score:  0.9191
+  Support:   142.0
+
+Label '中' (Class 6):
+  Precision: 0.8993
+  Recall:    0.8741
+  F1 Score:  0.8865
+  Support:   143.0
+
+Label '为' (Class 7):
+  Precision: 0.9262
+  Recall:    0.7958
+  F1 Score:  0.8561
+  Support:   142.0
+
+Label '主' (Class 8):
+  Precision: 0.7692
+  Recall:    0.8511
+  F1 Score:  0.8081
+  Support:   141.0
+
+Label '之' (Class 9):
+  Precision: 0.8562
+  Recall:    0.9448
+  F1 Score:  0.8984
+  Support:   145.0
+
+Label '也' (Class 10):
+  Precision: 0.9155
+  Recall:    0.9028
+  F1 Score:  0.9091
+  Support:   144.0
+
+Label '了' (Class 11):
+  Precision: 0.8397
+  Recall:    0.9161
+  F1 Score:  0.8763
+  Support:   143.0
+
+Label '事' (Class 12):
+  Precision: 0.8280
+  Recall:    0.9220
+  F1 Score:  0.8725
+  Support:   141.0
+
+Label '于' (Class 13):
+  Precision: 0.8456
+  Recall:    0.7931
+  F1 Score:  0.8185
+  Support:   145.0
+
+Label '人' (Class 14):
+  Precision: 0.9504
+  Recall:    0.9306
+  F1 Score:  0.9404
+  Support:   144.0
+
+Label '今' (Class 15):
+  Precision: 0.8844
+  Recall:    0.9028
+  F1 Score:  0.8935
+  Support:   144.0
+
+Label '他' (Class 16):
+  Precision: 0.8855
+  Recall:    0.8112
+  F1 Score:  0.8467
+  Support:   143.0
+
+Label '以' (Class 17):
+  Precision: 0.8344
+  Recall:    0.8811
+  F1 Score:  0.8571
+  Support:   143.0
+
+Label '们' (Class 18):
+  Precision: 0.8951
+  Recall:    0.8951
+  F1 Score:  0.8951
+  Support:   143.0
+
+Label '会' (Class 19):
+  Precision: 0.8301
+  Recall:    0.9007
+  F1 Score:  0.8639
+  Support:   141.0
+
+Label '但' (Class 20):
+  Precision: 0.9248
+  Recall:    0.8662
+  F1 Score:  0.8945
+  Support:   142.0
+
+Label '你' (Class 21):
+  Precision: 0.7716
+  Recall:    0.8681
+  F1 Score:  0.8170
+  Support:   144.0
+
+Label '做' (Class 22):
+  Precision: 0.8931
+  Recall:    0.8125
+  F1 Score:  0.8509
+  Support:   144.0
+
+Label '出' (Class 23):
+  Precision: 0.8058
+  Recall:    0.7887
+  F1 Score:  0.7972
+  Support:   142.0
+
+Label '分' (Class 24):
+  Precision: 0.9225
+  Recall:    0.8380
+  F1 Score:  0.8782
+  Support:   142.0
+
+Label '划' (Class 25):
+  Precision: 0.8696
+  Recall:    0.9790
+  F1 Score:  0.9211
+  Support:   143.0
+
+Label '前' (Class 26):
+  Precision: 0.7105
+  Recall:    0.9507
+  F1 Score:  0.8133
+  Support:   142.0
+
+Label '力' (Class 27):
+  Precision: 0.8645
+  Recall:    0.9437
+  F1 Score:  0.9024
+  Support:   142.0
+
+Label '功' (Class 28):
+  Precision: 0.8452
+  Recall:    0.9225
+  F1 Score:  0.8822
+  Support:   142.0
+
+Label '动' (Class 29):
+  Precision: 0.8446
+  Recall:    0.8865
+  F1 Score:  0.8651
+  Support:   141.0
+
+Label '原' (Class 30):
+  Precision: 0.8417
+  Recall:    0.8182
+  F1 Score:  0.8298
+  Support:   143.0
+
+Label '发' (Class 31):
+  Precision: 0.9185
+  Recall:    0.8794
+  F1 Score:  0.8986
+  Support:   141.0
+
+Label '只' (Class 32):
+  Precision: 0.7692
+  Recall:    0.9091
+  F1 Score:  0.8333
+  Support:   143.0
+
+Label '可' (Class 33):
+  Precision: 0.7973
+  Recall:    0.8194
+  F1 Score:  0.8082
+  Support:   144.0
+
+Label '各' (Class 34):
+  Precision: 0.8380
+  Recall:    0.8380
+  F1 Score:  0.8380
+  Support:   142.0
+
+Label '同' (Class 35):
+  Precision: 0.7885
+  Recall:    0.8662
+  F1 Score:  0.8255
+  Support:   142.0
+
+Label '后' (Class 36):
+  Precision: 0.7268
+  Recall:    0.9301
+  F1 Score:  0.8160
+  Support:   143.0
+
+Label '向' (Class 37):
+  Precision: 0.7571
+  Recall:    0.7465
+  F1 Score:  0.7518
+  Support:   142.0
+
+Label '听' (Class 38):
+  Precision: 0.7622
+  Recall:    0.8803
+  F1 Score:  0.8170
+  Support:   142.0
+
+Label '和' (Class 39):
+  Precision: 0.8819
+  Recall:    0.7832
+  F1 Score:  0.8296
+  Support:   143.0
+
+Label '四' (Class 40):
+  Precision: 0.8207
+  Recall:    0.8440
+  F1 Score:  0.8322
+  Support:   141.0
+
+Label '因' (Class 41):
+  Precision: 0.9051
+  Recall:    0.8611
+  F1 Score:  0.8826
+  Support:   144.0
+
+Label '国' (Class 42):
+  Precision: 0.8418
+  Recall:    0.9366
+  F1 Score:  0.8867
+  Support:   142.0
+
+Label '在' (Class 43):
+  Precision: 0.9481
+  Recall:    0.8828
+  F1 Score:  0.9143
+  Support:   145.0
+
+Label '地' (Class 44):
+  Precision: 0.8079
+  Recall:    0.8592
+  F1 Score:  0.8328
+  Support:   142.0
+
+Label '外' (Class 45):
+  Precision: 0.8828
+  Recall:    0.8951
+  F1 Score:  0.8889
+  Support:   143.0
+
+Label '大' (Class 46):
+  Precision: 0.7293
+  Recall:    0.9167
+  F1 Score:  0.8123
+  Support:   144.0
+
+Label '天' (Class 47):
+  Precision: 0.8785
+  Recall:    0.6573
+  F1 Score:  0.7520
+  Support:   143.0
+
+Label '女' (Class 48):
+  Precision: 0.8523
+  Recall:    0.8819
+  F1 Score:  0.8669
+  Support:   144.0
+
+Label '好' (Class 49):
+  Precision: 0.8897
+  Recall:    0.8521
+  F1 Score:  0.8705
+  Support:   142.0
+
+Label '如' (Class 50):
+  Precision: 0.8261
+  Recall:    0.7917
+  F1 Score:  0.8085
+  Support:   144.0
+
+Label '子' (Class 51):
+  Precision: 0.7764
+  Recall:    0.8681
+  F1 Score:  0.8197
+  Support:   144.0
+
+Label '学' (Class 52):
+  Precision: 0.7808
+  Recall:    0.7917
+  F1 Score:  0.7862
+  Support:   144.0
+
+Label '安' (Class 53):
+  Precision: 0.7640
+  Recall:    0.8662
+  F1 Score:  0.8119
+  Support:   142.0
+
+Label '定' (Class 54):
+  Precision: 0.6429
+  Recall:    0.8239
+  F1 Score:  0.7222
+  Support:   142.0
+
+Label '对' (Class 55):
+  Precision: 0.8881
+  Recall:    0.8380
+  F1 Score:  0.8623
+  Support:   142.0
+
+Label '小' (Class 56):
+  Precision: 0.8378
+  Recall:    0.8732
+  F1 Score:  0.8552
+  Support:   142.0
+
+Label '就' (Class 57):
+  Precision: 0.9675
+  Recall:    0.8322
+  F1 Score:  0.8947
+  Support:   143.0
+
+Label '工' (Class 58):
+  Precision: 0.8993
+  Recall:    0.8865
+  F1 Score:  0.8929
+  Support:   141.0
+
+Label '常' (Class 59):
+  Precision: 0.9573
+  Recall:    0.7832
+  F1 Score:  0.8615
+  Support:   143.0
+
+Label '年' (Class 60):
+  Precision: 0.9055
+  Recall:    0.7986
+  F1 Score:  0.8487
+  Support:   144.0
+
+Label '应' (Class 61):
+  Precision: 0.9250
+  Recall:    0.7762
+  F1 Score:  0.8441
+  Support:   143.0
+
+Label '当' (Class 62):
+  Precision: 0.9416
+  Recall:    0.9085
+  F1 Score:  0.9247
+  Support:   142.0
+
+Label '得' (Class 63):
+  Precision: 0.9398
+  Recall:    0.8865
+  F1 Score:  0.9124
+  Support:   141.0
+
+Label '心' (Class 64):
+  Precision: 0.8321
+  Recall:    0.7972
+  F1 Score:  0.8143
+  Support:   143.0
+
+Label '必' (Class 65):
+  Precision: 0.8561
+  Recall:    0.7958
+  F1 Score:  0.8248
+  Support:   142.0
+
+Label '想' (Class 66):
+  Precision: 0.9685
+  Recall:    0.8542
+  F1 Score:  0.9077
+  Support:   144.0
+
+Label '成' (Class 67):
+  Precision: 0.8344
+  Recall:    0.9225
+  F1 Score:  0.8763
+  Support:   142.0
+
+Label '我' (Class 68):
+  Precision: 0.9280
+  Recall:    0.8056
+  F1 Score:  0.8625
+  Support:   144.0
+
+Label '所' (Class 69):
+  Precision: 0.8189
+  Recall:    0.7273
+  F1 Score:  0.7704
+  Support:   143.0
+
+Label '手' (Class 70):
+  Precision: 0.8058
+  Recall:    0.7778
+  F1 Score:  0.7915
+  Support:   144.0
+
+Label '才' (Class 71):
+  Precision: 0.8816
+  Recall:    0.9437
+  F1 Score:  0.9116
+  Support:   142.0
+
+Label '排' (Class 72):
+  Precision: 0.9429
+  Recall:    0.9167
+  F1 Score:  0.9296
+  Support:   144.0
+
+Label '放' (Class 73):
+  Precision: 0.8134
+  Recall:    0.7786
+  F1 Score:  0.7956
+  Support:   140.0
+
+Label '旅' (Class 74):
+  Precision: 0.8692
+  Recall:    0.8014
+  F1 Score:  0.8339
+  Support:   141.0
+
+Label '日' (Class 75):
+  Precision: 0.8000
+  Recall:    0.9231
+  F1 Score:  0.8571
+  Support:   143.0
+
+Label '时' (Class 76):
+  Precision: 0.8913
+  Recall:    0.8542
+  F1 Score:  0.8723
+  Support:   144.0
+
+Label '明' (Class 77):
+  Precision: 0.8993
+  Recall:    0.8681
+  F1 Score:  0.8834
+  Support:   144.0
+
+Label '是' (Class 78):
+  Precision: 0.8309
+  Recall:    0.7847
+  F1 Score:  0.8071
+  Support:   144.0
+
+Label '最' (Class 79):
+  Precision: 0.8723
+  Recall:    0.8542
+  F1 Score:  0.8632
+  Support:   144.0
+
+Label '有' (Class 80):
+  Precision: 0.8768
+  Recall:    0.8462
+  F1 Score:  0.8612
+  Support:   143.0
+
+Label '本' (Class 81):
+  Precision: 0.8582
+  Recall:    0.8462
+  F1 Score:  0.8521
+  Support:   143.0
+
+Label '来' (Class 82):
+  Precision: 0.9179
+  Recall:    0.8601
+  F1 Score:  0.8881
+  Support:   143.0
+
+Label '每' (Class 83):
+  Precision: 0.8561
+  Recall:    0.7847
+  F1 Score:  0.8188
+  Support:   144.0
+
+Label '水' (Class 84):
+  Precision: 0.7778
+  Recall:    0.8811
+  F1 Score:  0.8262
+  Support:   143.0
+
+Label '洒' (Class 85):
+  Precision: 0.9058
+  Recall:    0.8741
+  F1 Score:  0.8897
+  Support:   143.0
+
+Label '游' (Class 86):
+  Precision: 0.8759
+  Recall:    0.8881
+  F1 Score:  0.8819
+  Support:   143.0
+
+Label '点' (Class 87):
+  Precision: 0.8689
+  Recall:    0.7571
+  F1 Score:  0.8092
+  Support:   140.0
+
+Label '热' (Class 88):
+  Precision: 0.8855
+  Recall:    0.8000
+  F1 Score:  0.8406
+  Support:   145.0
+
+Label '然' (Class 89):
+  Precision: 0.9302
+  Recall:    0.8333
+  F1 Score:  0.8791
+  Support:   144.0
+
+Label '物' (Class 90):
+  Precision: 0.8955
+  Recall:    0.8451
+  F1 Score:  0.8696
+  Support:   142.0
+
+Label '现' (Class 91):
+  Precision: 0.8311
+  Recall:    0.8786
+  F1 Score:  0.8542
+  Support:   140.0
+
+Label '生' (Class 92):
+  Precision: 0.7564
+  Recall:    0.8194
+  F1 Score:  0.7867
+  Support:   144.0
+
+Label '的' (Class 93):
+  Precision: 0.7267
+  Recall:    0.8298
+  F1 Score:  0.7748
+  Support:   141.0
+
+Label '看' (Class 94):
+  Precision: 0.9209
+  Recall:    0.8828
+  F1 Score:  0.9014
+  Support:   145.0
+
+Label '知' (Class 95):
+  Precision: 0.9554
+  Recall:    0.7379
+  F1 Score:  0.8327
+  Support:   145.0
+
+Label '种' (Class 96):
+  Precision: 0.8873
+  Recall:    0.8811
+  F1 Score:  0.8842
+  Support:   143.0
+
+Label '第' (Class 97):
+  Precision: 0.7758
+  Recall:    0.9078
+  F1 Score:  0.8366
+  Support:   141.0
+
+Label '而' (Class 98):
+  Precision: 0.8582
+  Recall:    0.8099
+  F1 Score:  0.8333
+  Support:   142.0
+
+Label '能' (Class 99):
+  Precision: 0.8647
+  Recall:    0.7986
+  F1 Score:  0.8303
+  Support:   144.0
+
+Label '自' (Class 100):
+  Precision: 0.8377
+  Recall:    0.8958
+  F1 Score:  0.8658
+  Support:   144.0
+
+Label '萧' (Class 101):
+  Precision: 0.9259
+  Recall:    0.8803
+  F1 Score:  0.9025
+  Support:   142.0
+
+Label '虽' (Class 102):
+  Precision: 0.8052
+  Recall:    0.8671
+  F1 Score:  0.8350
+  Support:   143.0
+
+Label '行' (Class 103):
+  Precision: 0.9091
+  Recall:    0.9028
+  F1 Score:  0.9059
+  Support:   144.0
+
+Label '要' (Class 104):
+  Precision: 0.9297
+  Recall:    0.8264
+  F1 Score:  0.8750
+  Support:   144.0
+
+Label '计' (Class 105):
+  Precision: 0.8726
+  Recall:    0.9648
+  F1 Score:  0.9164
+  Support:   142.0
+
+Label '说' (Class 106):
+  Precision: 0.7654
+  Recall:    0.8671
+  F1 Score:  0.8131
+  Support:   143.0
+
+Label '课' (Class 107):
+  Precision: 0.9291
+  Recall:    0.9097
+  F1 Score:  0.9193
+  Support:   144.0
+
+Label '起' (Class 108):
+  Precision: 0.9385
+  Recall:    0.8472
+  F1 Score:  0.8905
+  Support:   144.0
+
+Label '过' (Class 109):
+  Precision: 0.9677
+  Recall:    0.8451
+  F1 Score:  0.9023
+  Support:   142.0
+
+Label '还' (Class 110):
+  Precision: 0.9111
+  Recall:    0.8723
+  F1 Score:  0.8913
+  Support:   141.0
+
+Label '这' (Class 111):
+  Precision: 0.8843
+  Recall:    0.7483
+  F1 Score:  0.8106
+  Support:   143.0
+
+Label '进' (Class 112):
+  Precision: 0.9209
+  Recall:    0.8951
+  F1 Score:  0.9078
+  Support:   143.0
+
+Label '道' (Class 113):
+  Precision: 0.9375
+  Recall:    0.8451
+  F1 Score:  0.8889
+  Support:   142.0
+
+Label '都' (Class 114):
+  Precision: 0.9174
+  Recall:    0.7817
+  F1 Score:  0.8441
+  Support:   142.0
+
+Label '里' (Class 115):
+  Precision: 0.8382
+  Recall:    0.8028
+  F1 Score:  0.8201
+  Support:   142.0
+
+Label '问' (Class 116):
+  Precision: 0.8321
+  Recall:    0.7972
+  F1 Score:  0.8143
+  Support:   143.0
+
+Label '面' (Class 117):
+  Precision: 0.8531
+  Recall:    0.8592
+  F1 Score:  0.8561
+  Support:   142.0
+
+Label '须' (Class 118):
+  Precision: 0.8141
+  Recall:    0.8944
+  F1 Score:  0.8523
+  Support:   142.0
+
+Label '高' (Class 119):
+  Precision: 0.8867
+  Recall:    0.9366
+  F1 Score:  0.9110
+  Support:   142.0
+
