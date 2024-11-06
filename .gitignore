@@ -11,3 +11,4 @@ model_CRNN/checkpoints/
 model_CRNN/chi_sim_aft_write.h5
 ocr_trained.ipynb
 ocr_training_evaluation.ipynb
+/__pycache__/
