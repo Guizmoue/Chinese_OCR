@@ -5,16 +5,9 @@ Ce projet implémente une solution de reconnaissance optique de caractères (OCR
 ## Structure du Projet
 
 ### 1. Préparation du Corpus
-Les notebooks [`pre_processing.ipynb`](pre_processing.ipynb) et [`manuscrit.ipynb`](manuscrit.ipynb) contiennent les étapes de génération et de prétraitement du corpus d'images pour l'OCR chinois.
+Les notebooks [`pre_processing.ipynb`](pre_processing.ipynb) contient les étapes de génération et de prétraitement du corpus d'images pour l'OCR chinois.
 
-- **manuscrit.ipynb** : Ce notebook corrige l'inclinaison des images de texte manuscrit pour améliorer la précision de la reconnaissance. Il comprend les étapes suivantes :
-  - **Chargement et affichage des images** : Utilisation de OpenCV et Matplotlib pour visualiser les images originales.
-  - **Correction de l'inclinaison** : Calcul de l'angle d'inclinaison des lignes de texte dans chaque image et rotation automatique pour aligner correctement le texte.
-  - **Conversion en niveaux de gris et binarisation** : Transformation des images pour éliminer le bruit et optimiser la lisibilité pour l'OCR.
-
-  Ce prétraitement garantit que les images sont prêtes pour la reconnaissance de caractères, avec un alignement et une clarté maximisés.
-
-- **pre_processing.ipynb** : Ce notebook complète le prétraitement en segmentant les images en lignes ou caractères individuels, et en nettoyant les images pour enlever les bruits et optimiser la qualité visuelle.
+- **pre_processing.ipynb** : Ce notebook effectue le prétraitement en segmentant les images en lignes ou caractères individuels, et en nettoyant les images pour enlever les bruits et optimiser la qualité visuelle. Ce prétraitement garantit que les images sont prêtes pour la reconnaissance de caractères, avec un alignement et une clarté maximisés.
 
 Ces étapes garantissent un corpus propre et structuré pour une utilisation optimale dans les étapes suivantes.
 
@@ -89,7 +82,7 @@ Le choix du CRNN repose sur sa capacité à gérer des séquences de texte compl
 **Tesseract OCR** est un outil open-source reconnu pour sa capacité à extraire du texte depuis des images, avec un large support multilingue et des options avancées de segmentation. Depuis sa version 4, Tesseract utilise des réseaux neuronaux (LSTM) pour améliorer la précision de la reconnaissance de texte manuscrit ou déformé.
 
 #### Configuration
-L'installation de Tesseract est simple, et il est possible de spécifier la langue et le mode de segmentation. Par exemple, `--psm 10` isole les caractères individuellement, ce qui est optimal pour les caractères chinois.
+L'installation de Tesseract est simple, et il est possible de spécifier la langue et le mode de segmentation. Par exemple, `--psm 10` isole les caractères individuellement, ce qui est optimal pour nous car chaque image est composée d'un seul caractère.
 
 #### Avantages pour la tâche
 - **Support multilingue étendu** : Tesseract prend en charge le chinois simplifié, ce qui est essentiel pour cette tâche.
@@ -176,9 +169,7 @@ La raison pour laquelle il est intéressant d'employer le modèle **handwritten-
 
 ### Génération et Prétraitement du Corpus
 
-1. Exécutez `manuscrit.ipynb` pour préparer et corriger les images du corpus manuscrit.
-
-2. Exécutez `pre_processing.ipynb` pour affiner le corpus d'images.
+Exécutez `pre_processing.ipynb` pour préparer et corriger les images du corpus manuscrit, notamment en affinant le corpus d’images, en segmentant les images en lignes ou caractères individuels, et en nettoyant les images pour optimiser leur qualité visuelle.
 
 ### Entraînement du modèle CRNN
 Lancez le notebook `CRNN_OCR_Chinese.ipynb` pour entraîner le modèle CRNN sur le jeu de données des caractères manuscrits chinois.
