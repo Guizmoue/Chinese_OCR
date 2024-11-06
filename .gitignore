@@ -1,5 +1,4 @@
 /data/handwritten-chinese-character-hanzi-datasets/
-# /data/NewData/
 /data/Test_HWDB/
 /data/test.csv
 /data/train.csv
@@ -8,6 +7,7 @@
 .DS_Store
 .vscode/
 .gitattributes
-/model/checkpoints/
+model_CRNN/checkpoints/
+model_CRNN/chi_sim_aft_write.h5
 ocr_trained.ipynb
 ocr_training_evaluation.ipynb

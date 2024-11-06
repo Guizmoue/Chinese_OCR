@@ -1,0 +1,755 @@
+Scores globaux pour le corpus de test de Guilhem :
+Précision (macro): 0.4222
+Rappel (macro): 0.3639
+Score F1 (macro): 0.3744
+Précision (weighted): 0.5990
+Rappel (weighted): 0.4219
+Score F1 (weighted): 0.4615
+
+Scores globaux pour le corpus de test  :
+Précision (macro): 0.1251
+Rappel (macro): 0.0907
+Score F1 (macro): 0.1021
+Précision (weighted): 0.9225
+Rappel (weighted): 0.6687
+Score F1 (weighted): 0.7529
+
+Rapport de classification détaillé pour le corpus de test :
+Caractère : 一
+  precision: 0.0000
+  recall: 0.0000
+  f1-score: 0.0000
+  support: 144.0000
+
+Caractère : 上
+  precision: 0.9000
+  recall: 0.5000
+  f1-score: 0.6429
+  support: 144.0000
+
+Caractère : 下
+  precision: 0.9639
+  recall: 0.5556
+  f1-score: 0.7048
+  support: 144.0000
+
+Caractère : 不
+  precision: 0.7215
+  recall: 0.8028
+  f1-score: 0.7600
+  support: 142.0000
+
+Caractère : 与
+  precision: 0.8382
+  recall: 0.7917
+  f1-score: 0.8143
+  support: 144.0000
+
+Caractère : 个
+  precision: 0.8551
+  recall: 0.8310
+  f1-score: 0.8429
+  support: 142.0000
+
+Caractère : 中
+  precision: 0.9220
+  recall: 0.9091
+  f1-score: 0.9155
+  support: 143.0000
+
+Caractère : 为
+  precision: 0.9244
+  recall: 0.7746
+  f1-score: 0.8429
+  support: 142.0000
+
+Caractère : 主
+  precision: 0.9714
+  recall: 0.4823
+  f1-score: 0.6445
+  support: 141.0000
+
+Caractère : 之
+  precision: 0.5618
+  recall: 0.6897
+  f1-score: 0.6192
+  support: 145.0000
+
+Caractère : 也
+  precision: 0.6581
+  recall: 0.5347
+  f1-score: 0.5900
+  support: 144.0000
+
+Caractère : 了
+  precision: 0.7826
+  recall: 0.5035
+  f1-score: 0.6128
+  support: 143.0000
+
+Caractère : 事
+  precision: 0.9648
+  recall: 0.9716
+  f1-score: 0.9682
+  support: 141.0000
+
+Caractère : 于
+  precision: 0.9429
+  recall: 0.6828
+  f1-score: 0.7920
+  support: 145.0000
+
+Caractère : 人
+  precision: 0.2680
+  recall: 0.9583
+  f1-score: 0.4188
+  support: 144.0000
+
+Caractère : 今
+  precision: 0.9306
+  recall: 0.9306
+  f1-score: 0.9306
+  support: 144.0000
+
+Caractère : 他
+  precision: 0.9027
+  recall: 0.7133
+  f1-score: 0.7969
+  support: 143.0000
+
+Caractère : 以
+  precision: 0.7000
+  recall: 0.1469
+  f1-score: 0.2428
+  support: 143.0000
+
+Caractère : 们
+  precision: 0.8983
+  recall: 0.7413
+  f1-score: 0.8123
+  support: 143.0000
+
+Caractère : 会
+  precision: 0.9348
+  recall: 0.9149
+  f1-score: 0.9247
+  support: 141.0000
+
+Caractère : 但
+  precision: 0.9898
+  recall: 0.6831
+  f1-score: 0.8083
+  support: 142.0000
+
+Caractère : 你
+  precision: 1.0000
+  recall: 0.7083
+  f1-score: 0.8293
+  support: 144.0000
+
+Caractère : 做
+  precision: 0.9900
+  recall: 0.6875
+  f1-score: 0.8115
+  support: 144.0000
+
+Caractère : 出
+  precision: 1.0000
+  recall: 0.6761
+  f1-score: 0.8067
+  support: 142.0000
+
+Caractère : 分
+  precision: 0.9360
+  recall: 0.8239
+  f1-score: 0.8764
+  support: 142.0000
+
+Caractère : 划
+  precision: 1.0000
+  recall: 0.5245
+  f1-score: 0.6881
+  support: 143.0000
+
+Caractère : 前
+  precision: 1.0000
+  recall: 0.9577
+  f1-score: 0.9784
+  support: 142.0000
+
+Caractère : 力
+  precision: 0.6604
+  recall: 0.7394
+  f1-score: 0.6977
+  support: 142.0000
+
+Caractère : 功
+  precision: 0.8830
+  recall: 0.5845
+  f1-score: 0.7034
+  support: 142.0000
+
+Caractère : 动
+  precision: 1.0000
+  recall: 0.5177
+  f1-score: 0.6822
+  support: 141.0000
+
+Caractère : 原
+  precision: 1.0000
+  recall: 0.7972
+  f1-score: 0.8872
+  support: 143.0000
+
+Caractère : 发
+  precision: 0.9919
+  recall: 0.8723
+  f1-score: 0.9283
+  support: 141.0000
+
+Caractère : 只
+  precision: 0.8769
+  recall: 0.3986
+  f1-score: 0.5481
+  support: 143.0000
+
+Caractère : 可
+  precision: 0.9196
+  recall: 0.7153
+  f1-score: 0.8047
+  support: 144.0000
+
+Caractère : 各
+  precision: 1.0000
+  recall: 0.7465
+  f1-score: 0.8548
+  support: 142.0000
+
+Caractère : 同
+  precision: 0.9541
+  recall: 0.7324
+  f1-score: 0.8287
+  support: 142.0000
+
+Caractère : 后
+  precision: 0.9340
+  recall: 0.6923
+  f1-score: 0.7952
+  support: 143.0000
+
+Caractère : 向
+  precision: 0.8605
+  recall: 0.5211
+  f1-score: 0.6491
+  support: 142.0000
+
+Caractère : 听
+  precision: 0.9815
+  recall: 0.7465
+  f1-score: 0.8480
+  support: 142.0000
+
+Caractère : 和
+  precision: 0.9238
+  recall: 0.6783
+  f1-score: 0.7823
+  support: 143.0000
+
+Caractère : 四
+  precision: 0.8889
+  recall: 0.1135
+  f1-score: 0.2013
+  support: 141.0000
+
+Caractère : 因
+  precision: 0.9706
+  recall: 0.6875
+  f1-score: 0.8049
+  support: 144.0000
+
+Caractère : 国
+  precision: 0.9898
+  recall: 0.6831
+  f1-score: 0.8083
+  support: 142.0000
+
+Caractère : 在
+  precision: 0.9764
+  recall: 0.8552
+  f1-score: 0.9118
+  support: 145.0000
+
+Caractère : 地
+  precision: 1.0000
+  recall: 0.3380
+  f1-score: 0.5053
+  support: 142.0000
+
+Caractère : 外
+  precision: 0.9911
+  recall: 0.7762
+  f1-score: 0.8706
+  support: 143.0000
+
+Caractère : 大
+  precision: 0.7712
+  recall: 0.6319
+  f1-score: 0.6947
+  support: 144.0000
+
+Caractère : 天
+  precision: 0.8761
+  recall: 0.6923
+  f1-score: 0.7734
+  support: 143.0000
+
+Caractère : 女
+  precision: 0.9167
+  recall: 0.4583
+  f1-score: 0.6111
+  support: 144.0000
+
+Caractère : 好
+  precision: 0.9429
+  recall: 0.2324
+  f1-score: 0.3729
+  support: 142.0000
+
+Caractère : 如
+  precision: 0.8833
+  recall: 0.3681
+  f1-score: 0.5196
+  support: 144.0000
+
+Caractère : 子
+  precision: 0.7241
+  recall: 0.5833
+  f1-score: 0.6462
+  support: 144.0000
+
+Caractère : 学
+  precision: 0.9925
+  recall: 0.9167
+  f1-score: 0.9531
+  support: 144.0000
+
+Caractère : 安
+  precision: 0.9510
+  recall: 0.6831
+  f1-score: 0.7951
+  support: 142.0000
+
+Caractère : 定
+  precision: 0.9915
+  recall: 0.8169
+  f1-score: 0.8958
+  support: 142.0000
+
+Caractère : 对
+  precision: 0.9706
+  recall: 0.6972
+  f1-score: 0.8115
+  support: 142.0000
+
+Caractère : 小
+  precision: 0.7500
+  recall: 0.1056
+  f1-score: 0.1852
+  support: 142.0000
+
+Caractère : 就
+  precision: 1.0000
+  recall: 0.7972
+  f1-score: 0.8872
+  support: 143.0000
+
+Caractère : 工
+  precision: 0.7273
+  recall: 0.0567
+  f1-score: 0.1053
+  support: 141.0000
+
+Caractère : 常
+  precision: 1.0000
+  recall: 0.9301
+  f1-score: 0.9638
+  support: 143.0000
+
+Caractère : 年
+  precision: 0.9441
+  recall: 0.9375
+  f1-score: 0.9408
+  support: 144.0000
+
+Caractère : 应
+  precision: 1.0000
+  recall: 0.8112
+  f1-score: 0.8958
+  support: 143.0000
+
+Caractère : 当
+  precision: 1.0000
+  recall: 0.8239
+  f1-score: 0.9035
+  support: 142.0000
+
+Caractère : 得
+  precision: 1.0000
+  recall: 0.8440
+  f1-score: 0.9154
+  support: 141.0000
+
+Caractère : 心
+  precision: 0.3333
+  recall: 0.0280
+  f1-score: 0.0516
+  support: 143.0000
+
+Caractère : 必
+  precision: 1.0000
+  recall: 0.1761
+  f1-score: 0.2994
+  support: 142.0000
+
+Caractère : 想
+  precision: 1.0000
+  recall: 0.8542
+  f1-score: 0.9213
+  support: 144.0000
+
+Caractère : 成
+  precision: 0.9837
+  recall: 0.8521
+  f1-score: 0.9132
+  support: 142.0000
+
+Caractère : 我
+  precision: 1.0000
+  recall: 0.8611
+  f1-score: 0.9254
+  support: 144.0000
+
+Caractère : 所
+  precision: 0.9462
+  recall: 0.8601
+  f1-score: 0.9011
+  support: 143.0000
+
+Caractère : 手
+  precision: 0.9385
+  recall: 0.8472
+  f1-score: 0.8905
+  support: 144.0000
+
+Caractère : 才
+  precision: 0.9007
+  recall: 0.9577
+  f1-score: 0.9283
+  support: 142.0000
+
+Caractère : 排
+  precision: 1.0000
+  recall: 0.5347
+  f1-score: 0.6968
+  support: 144.0000
+
+Caractère : 放
+  precision: 0.9855
+  recall: 0.4857
+  f1-score: 0.6507
+  support: 140.0000
+
+Caractère : 旅
+  precision: 1.0000
+  recall: 0.5603
+  f1-score: 0.7182
+  support: 141.0000
+
+Caractère : 日
+  precision: 0.7193
+  recall: 0.2867
+  f1-score: 0.4100
+  support: 143.0000
+
+Caractère : 时
+  precision: 0.9787
+  recall: 0.6389
+  f1-score: 0.7731
+  support: 144.0000
+
+Caractère : 明
+  precision: 0.9821
+  recall: 0.7639
+  f1-score: 0.8594
+  support: 144.0000
+
+Caractère : 是
+  precision: 0.9362
+  recall: 0.9167
+  f1-score: 0.9263
+  support: 144.0000
+
+Caractère : 最
+  precision: 1.0000
+  recall: 0.8681
+  f1-score: 0.9294
+  support: 144.0000
+
+Caractère : 有
+  precision: 0.9779
+  recall: 0.9301
+  f1-score: 0.9534
+  support: 143.0000
+
+Caractère : 本
+  precision: 0.9914
+  recall: 0.8042
+  f1-score: 0.8880
+  support: 143.0000
+
+Caractère : 来
+  precision: 0.9778
+  recall: 0.9231
+  f1-score: 0.9496
+  support: 143.0000
+
+Caractère : 每
+  precision: 1.0000
+  recall: 0.7708
+  f1-score: 0.8706
+  support: 144.0000
+
+Caractère : 水
+  precision: 1.0000
+  recall: 0.3986
+  f1-score: 0.5700
+  support: 143.0000
+
+Caractère : 洒
+  precision: 1.0000
+  recall: 0.1888
+  f1-score: 0.3176
+  support: 143.0000
+
+Caractère : 游
+  precision: 1.0000
+  recall: 0.6643
+  f1-score: 0.7983
+  support: 143.0000
+
+Caractère : 点
+  precision: 0.9908
+  recall: 0.7714
+  f1-score: 0.8675
+  support: 140.0000
+
+Caractère : 热
+  precision: 1.0000
+  recall: 0.4828
+  f1-score: 0.6512
+  support: 145.0000
+
+Caractère : 然
+  precision: 1.0000
+  recall: 0.7569
+  f1-score: 0.8617
+  support: 144.0000
+
+Caractère : 物
+  precision: 0.9792
+  recall: 0.6620
+  f1-score: 0.7899
+  support: 142.0000
+
+Caractère : 现
+  precision: 1.0000
+  recall: 0.3929
+  f1-score: 0.5641
+  support: 140.0000
+
+Caractère : 生
+  precision: 0.9159
+  recall: 0.6806
+  f1-score: 0.7809
+  support: 144.0000
+
+Caractère : 的
+  precision: 0.8469
+  recall: 0.5887
+  f1-score: 0.6946
+  support: 141.0000
+
+Caractère : 看
+  precision: 1.0000
+  recall: 0.8828
+  f1-score: 0.9377
+  support: 145.0000
+
+Caractère : 知
+  precision: 1.0000
+  recall: 0.5241
+  f1-score: 0.6878
+  support: 145.0000
+
+Caractère : 种
+  precision: 1.0000
+  recall: 0.7972
+  f1-score: 0.8872
+  support: 143.0000
+
+Caractère : 第
+  precision: 1.0000
+  recall: 0.8652
+  f1-score: 0.9278
+  support: 141.0000
+
+Caractère : 而
+  precision: 0.8129
+  recall: 0.8873
+  f1-score: 0.8485
+  support: 142.0000
+
+Caractère : 能
+  precision: 1.0000
+  recall: 0.8125
+  f1-score: 0.8966
+  support: 144.0000
+
+Caractère : 自
+  precision: 1.0000
+  recall: 0.5764
+  f1-score: 0.7313
+  support: 144.0000
+
+Caractère : 萧
+  precision: 1.0000
+  recall: 0.7394
+  f1-score: 0.8502
+  support: 142.0000
+
+Caractère : 虽
+  precision: 1.0000
+  recall: 0.6434
+  f1-score: 0.7830
+  support: 143.0000
+
+Caractère : 行
+  precision: 0.9308
+  recall: 0.8403
+  f1-score: 0.8832
+  support: 144.0000
+
+Caractère : 要
+  precision: 0.9924
+  recall: 0.9097
+  f1-score: 0.9493
+  support: 144.0000
+
+Caractère : 计
+  precision: 1.0000
+  recall: 0.4366
+  f1-score: 0.6078
+  support: 142.0000
+
+Caractère : 说
+  precision: 1.0000
+  recall: 0.6084
+  f1-score: 0.7565
+  support: 143.0000
+
+Caractère : 课
+  precision: 1.0000
+  recall: 0.5417
+  f1-score: 0.7027
+  support: 144.0000
+
+Caractère : 起
+  precision: 1.0000
+  recall: 0.6319
+  f1-score: 0.7745
+  support: 144.0000
+
+Caractère : 过
+  precision: 0.9455
+  recall: 0.7324
+  f1-score: 0.8254
+  support: 142.0000
+
+Caractère : 还
+  precision: 1.0000
+  recall: 0.5248
+  f1-score: 0.6884
+  support: 141.0000
+
+Caractère : 这
+  precision: 1.0000
+  recall: 0.6364
+  f1-score: 0.7778
+  support: 143.0000
+
+Caractère : 进
+  precision: 1.0000
+  recall: 0.7413
+  f1-score: 0.8514
+  support: 143.0000
+
+Caractère : 道
+  precision: 1.0000
+  recall: 0.8239
+  f1-score: 0.9035
+  support: 142.0000
+
+Caractère : 都
+  precision: 1.0000
+  recall: 0.8169
+  f1-score: 0.8992
+  support: 142.0000
+
+Caractère : 里
+  precision: 0.9633
+  recall: 0.7394
+  f1-score: 0.8367
+  support: 142.0000
+
+Caractère : 问
+  precision: 0.8958
+  recall: 0.6014
+  f1-score: 0.7197
+  support: 143.0000
+
+Caractère : 面
+  precision: 1.0000
+  recall: 0.6479
+  f1-score: 0.7863
+  support: 142.0000
+
+Caractère : 须
+  precision: 1.0000
+  recall: 0.7324
+  f1-score: 0.8455
+  support: 142.0000
+
+Caractère : 高
+  precision: 1.0000
+  recall: 0.9507
+  f1-score: 0.9747
+  support: 142.0000
+
+micro avg
+  precision: 0.9113
+  recall: 0.6687
+  f1-score: 0.7714
+  support: 17138.0000
+
+macro avg
+  precision: 0.9227
+  recall: 0.6686
+  f1-score: 0.7528
+  support: 17138.0000
+
+weighted avg
+  precision: 0.9225
+  recall: 0.6687
+  f1-score: 0.7529
+  support: 17138.0000
+
