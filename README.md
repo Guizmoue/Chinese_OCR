@@ -39,9 +39,16 @@ Ce notebook compare deux outils d'OCR open-source, Tesseract et EasyOCR, en term
 - Génération et sauvegarde de la matrice de confusion pour visualiser les performances.
 
 ### 4. Comparaison de notre modèle et [Modèle OpenVINO : handwritten-simplified-chinese-recognition-0001](chinese_handwritten_ocr.ipynb)
-Ce notebook évalue le modèle [handwritten-simplified-chinese-recognition-0001]((https://github.com/OpenVINOtoolkit/open_model_zoo/blob/master/models/intel/handwritten-simplified-chinese-recognition-0001/README.md)), qui est entraîné sur du manuscrit chinois sur les deux corpus de test, les caractères manuscrits par Guilhem et [NewData120](./data/NewData120/Test/).
+Ce notebook évalue le modèle [handwritten-simplified-chinese-recognition-0001]((https://github.com/OpenVINOtoolkit/open_model_zoo/blob/master/models/intel/handwritten-simplified-chinese-recognition-0001/README.md)), qui est entraîné sur du manuscrit chinois sur les deux corpus de test, [les caractères manuscrits par Guilhem](./Char/) et [NewData120](./data/NewData120/Test/).
 
 Nous utiliserons par la suite ses résultats de prédiction pour évaluer sa performance et comparer avec le modèle CRNN entraîné par nous.
+
+@article{bliu2020hctr-cnn,
+      Author = {Brian Liu, Xianchao Xu, Yu Zhang},
+      Title = {Offline Handwritten Chinese Text Recognition with Convolutional Neural Networks},
+      publisher  = {arXiv},
+      Year = {2020}
+}
 
 ## Corpus utilisé (NewData120)
 
@@ -125,6 +132,12 @@ EasyOCR est un choix pertinent pour sa simplicité d'utilisation, sa compatibili
 
 
 ### OpenVINO : handwritten-simplified-chinese-recognition-0001
+@article{bliu2020hctr-cnn,
+      Author = {Brian Liu, Xianchao Xu, Yu Zhang},
+      Title = {Offline Handwritten Chinese Text Recognition with Convolutional Neural Networks},
+      publisher  = {arXiv},
+      Year = {2020}
+}
 
 #### Fonctionnalités
 OpenVINO est conçu pour rendre les modèles plus efficaces sur les matériels Intel en optimisant la structure du modèle et en réduisant le nombre de calculs requis. Cela inclut des techniques comme la quantification et la fusion de couches. Les modèles qui passent par OpenVINO sont donc adaptés pour un déploiement rapide et performant sur des processeurs Intel. Le modèle **"handwritten-simplified-chinese-recognition-0001"** est l'un des modèles configurés sur la plateforme de l'OpenVINO.
