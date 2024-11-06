@@ -1,4 +1,5 @@
 Évaluation des performances:
+Précision globale (accuracy) : 7.08%
 Précision (moyenne pondérée) : 53.06%
 Rappel (moyenne pondérée) : 7.08%
 F1 Score (moyenne pondérée) : 9.87%
