@@ -7,9 +7,7 @@ Ce projet implémente une solution de reconnaissance optique de caractères (OCR
 ### 1. Préparation du Corpus
 Les notebooks [`pre_processing.ipynb`](pre_processing.ipynb) contient les étapes de génération et de prétraitement du corpus d'images pour l'OCR chinois.
 
-- **pre_processing.ipynb** : Ce notebook effectue le prétraitement en segmentant les images en lignes ou caractères individuels, et en nettoyant les images pour enlever les bruits et optimiser la qualité visuelle. Ce prétraitement garantit que les images sont prêtes pour la reconnaissance de caractères, avec un alignement et une clarté maximisés.
-
-Ces étapes garantissent un corpus propre et structuré pour une utilisation optimale dans les étapes suivantes.
+- **pre_processing.ipynb** : Ce code réalise le prétraitement des images contenant du texte qui se trouvent dans le dossier 'Img'. Premièrement, ce notebook permet de rectifier l'inclinaison de l'image si néccesaire. Deuxièment, le programme va repérer les lignes contenant du texte puis les extraires. Troisièmement, à partir de ces lignes de textes nous tentons de segmenter caractère par caractère en nous appuyant sur l'espace inter-caractère. Lorsque le segment est plus petit que la hauteur de la ligne alors c'est un caractère, puis on calcule la largeur moyenne des caratères uniques. Grâce à cette moyenne on peut tenter de prédire et d'extraire les caractères non reconnu des segments plus long. Enfin, les images des caractères sont enregistrés dans le dossier 'char'.  
 
 ### 2. [CRNN OCR pour Caractères Chinois Manuscrits](CRNN_OCR_Chinese.ipynb)
 Ce notebook met en œuvre un pipeline complet d'OCR pour la reconnaissance de caractères chinois manuscrits en utilisant un modèle CRNN (Convolutional Recurrent Neural Network).
